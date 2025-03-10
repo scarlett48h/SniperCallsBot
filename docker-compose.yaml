@@ -1,0 +1,10 @@
+services:
+  coinsniper:
+    container_name: 'coinsniper'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '8000:8000'
+    volumes:
+      - '/var/www/coinsniper'

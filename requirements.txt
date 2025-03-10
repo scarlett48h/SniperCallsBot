@@ -1,0 +1,5 @@
+flask
+web3
+solana
+pandas
+numpy
